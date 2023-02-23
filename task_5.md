@@ -27,7 +27,7 @@ select *
 from categories 
 where category_name ='Confections'
 
-
+![image](https://user-images.githubusercontent.com/113756535/221041335-4369c93b-3921-44d0-97aa-b95857877d3d.png)
 
 
 Task No 5 :
