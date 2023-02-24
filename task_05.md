@@ -9,20 +9,23 @@
 
 ![image](https://user-images.githubusercontent.com/113756535/221038863-238b4518-5af4-496c-aa68-e9994579c711.png)
 
-TASK NO 2 :
+## TASK NO 2 :
 
-select category_name, description 
-from categories
+  select category_name, description 
+  from categories
+  
+  
 
 ![image](https://user-images.githubusercontent.com/113756535/221043476-e800531b-9f9c-49be-ae4a-e8644a0e8400.png)
 
 
 ![image](https://user-images.githubusercontent.com/113756535/221039102-4a2bb7a4-5878-4669-a65c-c34c5dc6a7d5.png)
 
-TASK NO 3 :
+## TASK NO 3 :
 
-select category_name as nomi, description as tavsifi 
-from categories
+  select category_name as nomi, description as tavsifi 
+  from categories
+
 
 ![image](https://user-images.githubusercontent.com/113756535/221043537-b23cb6bb-611d-40c7-8508-32d6b5b27dd1.png)
 
