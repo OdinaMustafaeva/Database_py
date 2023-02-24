@@ -1,4 +1,4 @@
-# Databese_py
+# Database_py
 
 Tasks from 1 to 5 : https://github.com/OdinaMustafaeva/Databese_py/blob/main/task_05.md
 
