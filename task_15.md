@@ -1,10 +1,8 @@
-TASKS FROM 10 TO 15
-
-TASK NO 11:
-
-select *
-from customers
-where city='London'
+## TASK NO 11:
+  
+    select *
+    from customers
+    where city='London'
 
 ![image](https://user-images.githubusercontent.com/113756535/221046246-a1b98e1d-0f1c-4906-9a9e-839d4c4ad71a.png)
 
