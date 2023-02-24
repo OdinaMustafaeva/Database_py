@@ -1,7 +1,10 @@
 ## TASK NO 1 :
-
+"""
+python
   select * 
   from categories
+  
+"""
 
 ![image](https://user-images.githubusercontent.com/113756535/221043420-f82bb870-2ff6-4d13-a25d-e0e87c7c41d2.png)
 
