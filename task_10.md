@@ -14,18 +14,18 @@
        from categories
        order by description DESC 
 
-       ![image](https://user-images.githubusercontent.com/113756535/221043057-a1442058-3070-4057-95ad-3cc7e8995f15.png)
+![image](https://user-images.githubusercontent.com/113756535/221043057-a1442058-3070-4057-95ad-3cc7e8995f15.png)
 
-       ![image](https://user-images.githubusercontent.com/113756535/221042988-beb7ecd4-ef09-449b-a1c3-10ecd50c2a10.png)
+![image](https://user-images.githubusercontent.com/113756535/221042988-beb7ecd4-ef09-449b-a1c3-10ecd50c2a10.png)
 
 ## TASK NO 8 :
 
        select *
        from customers
 
-       ![image](https://user-images.githubusercontent.com/113756535/221044414-986b834d-96ac-4ddd-9079-36caaab7ea56.png)
+![image](https://user-images.githubusercontent.com/113756535/221044414-986b834d-96ac-4ddd-9079-36caaab7ea56.png)
 
-       ![image](https://user-images.githubusercontent.com/113756535/221044501-88de546c-be59-480e-9156-d64689b1da46.png)
+![image](https://user-images.githubusercontent.com/113756535/221044501-88de546c-be59-480e-9156-d64689b1da46.png)
 
 ## TASK NO 9:
 
@@ -42,10 +42,10 @@
        from customers
 
 
-       ![image](https://user-images.githubusercontent.com/113756535/221045415-35812042-4082-458b-b4bf-5824b92d43be.png)
+![image](https://user-images.githubusercontent.com/113756535/221045415-35812042-4082-458b-b4bf-5824b92d43be.png)
 
 
-       ![image](https://user-images.githubusercontent.com/113756535/221045532-6e563390-f0d7-4738-8fac-3072d41ea2da.png)
+![image](https://user-images.githubusercontent.com/113756535/221045532-6e563390-f0d7-4738-8fac-3072d41ea2da.png)
 
 ## TASK NO 10:
 
