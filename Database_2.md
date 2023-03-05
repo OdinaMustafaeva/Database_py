@@ -36,45 +36,15 @@
   sold books information
   
 ```sql
-create table if not exists information_technology_books(
-    book_id serial not null ,
-    book_about varchar(100) not null ,
-    book_page serial not null ,
-    book_language varchar(50) not null
-);
+create table book_type(
+     id serial not null,
+     about varchar(100) not null ,
+     book_id serial nott null,
+     page serial not null ,
+     language varchar(50) not null
+ );
 ```
-information_technology books 
-
-```sql
-create table if not exists english_books(
-    book_id serial not null ,
-    book_about varchar(100) not null ,
-    book_page serial not null ,
-    book_language varchar(50) not null
-);
-```
-english books
-
-```sql
-create table if not exists novel_books(
-    book_id serial not null ,
-    book_about varchar(100) not null ,
-    book_page serial not null ,
-    book_language varchar(50) not null
-);
-```
-novel books
-
-```sql
-create table if not exists math_books(
-    book_id serial not null ,
-    book_about varchar(100) not null ,
-    book_page serial not null ,
-    book_language varchar(50) not null
-);
-```
-
-math books
+ book type
 
 
 ## Insert into 
@@ -113,46 +83,20 @@ values (1, 5, '2023-03-03'),
 ```
 sold books
 
-![image](https://user-images.githubusercontent.com/113756535/222691210-079d6cd3-9fd3-40e9-b083-a26c717d3452.png)
+![image](https://user-images.githubusercontent.com/113756535/222988675-23a32b1e-ebf7-43c4-bbb0-0c93dcb2a022.png)
+
 
 ```sql
-insert into english_books(book_id, book_about, book_page, book_language)
-values (2, 'grammar ielts', 76, 'english');
+insert into book_type(id, book_id, about, page, language)
+  values (1, 2,'grammar ielts',76,'english'),
+  (2, 3,'Python',780,'russia'),
+  (3, 2,'Fotima life',66000,'uzbek'),
+  (4, 5,'5 class math',350,'uzbek'),
+  (5, 1,'people life',450,'uzbek');
+
 ```
-english books 
 
-![image](https://user-images.githubusercontent.com/113756535/222691441-adb1cdda-3c4f-48c3-a0b4-f50b75058216.png)
+![image](https://user-images.githubusercontent.com/113756535/222988689-df16fc4b-187e-4748-ac6e-0e55c561dd75.png)
 
-```sql
-insert into information_technology_books(book_id, book_about, book_page, book_language)
-VALUES (3, 'Python', 780, 'russia');
-```
-information technology 
-
-![image](https://user-images.githubusercontent.com/113756535/222691733-4dc89f5a-9221-4b1e-8ca1-9da361abe6b9.png)
-
-```sql
-insert into islamic_books(book_id, book_about, book_page, book_language)
-values (2, 'Fotima life', 66000, 'uzbek');
-```
-islamic books
-
-![image](https://user-images.githubusercontent.com/113756535/222691907-8e1b3b22-ffb2-4778-9af6-9d02ce88051c.png)
-
-```sql
-insert into math_books(book_id, book_about, book_page, book_language)
-values (5, '5 class math', 350, 'uzbek');
-```
-math books
-
-![image](https://user-images.githubusercontent.com/113756535/222692105-5edfdef8-29f5-47a5-97e8-dd0ef65d3d8e.png)
-
-```sql
-insert into novel_books(book_id, book_about, book_page, book_language)
-values (1, 'people life', 450, 'uzbek');
-```
-novel books 
-
-![image](https://user-images.githubusercontent.com/113756535/222692319-958e0fd3-311e-4074-a3a0-decb7752b325.png)
 
 
